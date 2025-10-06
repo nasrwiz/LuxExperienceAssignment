@@ -1,0 +1,41 @@
+{
+  "name": "fashionhub-test-automation",
+  "version": "1.0.0",
+  "description": "Automated test suite for FashionHub website using Playwright - prepared by Nasr Ullah on October 05, 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:local": "playwright test --config=playwright.config.js --env=local",
+    "test:staging": "playwright test --config=playwright.config.js --env=staging",
+    "test:production": "playwright test --config=playwright.config.js --env=production",
+    "install:browsers": "playwright install",
+    "build": "echo 'No build step required for JavaScript/TypeScript'",
+    "lint": "eslint . --ext .js,.ts",
+    "lint:fix": "eslint . --ext .js,.ts --fix"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e",
+    "cross-browser"
+  ],
+  "author": "QA Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}

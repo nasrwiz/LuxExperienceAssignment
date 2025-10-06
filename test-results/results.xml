@@ -1,0 +1,3082 @@
+<testsuites id="" name="" tests="55" failures="0" skipped="0" errors="0" time="28.451065">
+<testsuite name="test-case-1.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="chromium" tests="2" failures="0" skipped="0" time="2.443" errors="0">
+<testcase name="Test Case 1: Basic Website Test › should load the FashionHub website successfully" classname="test-case-1.spec.ts" time="1.193">
+<system-out>
+<![CDATA[Page title: Home - FashionHub
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 1: Basic Website Test › should have working navigation" classname="test-case-1.spec.ts" time="1.25">
+<system-out>
+<![CDATA[Navigation elements found and visible
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-2.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="chromium" tests="2" failures="0" skipped="0" time="2.89" errors="0">
+<testcase name="Test Case 2: Link Status Code Validation › should verify all links return 200 or 30x status codes" classname="test-case-2.spec.ts" time="1.751">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+
+Link Check Summary:
+Total links: 6
+Successful links: 6
+Failed links: 0
+Success rate: 100.00%
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2: Link Status Code Validation › should verify specific page links work correctly" classname="test-case-2.spec.ts" time="1.139">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-3.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="chromium" tests="3" failures="0" skipped="0" time="6.126" errors="0">
+<testcase name="Test Case 3: Login Functionality Verification › should successfully log in with valid credentials" classname="test-case-3.spec.ts" time="2.705">
+<system-out>
+<![CDATA[Using credentials - Username: demouser
+Current URL after login: https://pocketaces2.github.io/fashionhub/account.html
+Found success indicator: Welcome
+URL changed after login, indicating successful authentication
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should handle invalid credentials appropriately" classname="test-case-3.spec.ts" time="2.567">
+<system-out>
+<![CDATA[Found error indicator: Invalid
+Still on login page: true
+Error message found: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should verify login form elements are present" classname="test-case-3.spec.ts" time="0.854">
+</testcase>
+</testsuite>
+<testsuite name="test-case-4.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="chromium" tests="4" failures="0" skipped="0" time="2.411" errors="0">
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch and export open pull requests to CSV" classname="test-case-4.spec.ts" time="1.006">
+<system-out>
+<![CDATA[Found 100 open pull requests
+1. Fixed #10599 - fixed the X URL 
+   Author: Lanthoiba2022
+   Created: 2025-10-04T18:27:29Z
+   URL: https://github.com/appwrite/appwrite/pull/10600
+
+2. Sanitize 5xx errors on realtime
+   Author: ItzNotABug
+   Created: 2025-10-04T13:09:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10598
+
+3. Update database
+   Author: abnegate
+   Created: 2025-10-03T12:38:31Z
+   URL: https://github.com/appwrite/appwrite/pull/10596
+
+4. Feat: update facts on GitHub sites and functions
+   Author: HarshMN2345
+   Created: 2025-10-02T17:45:23Z
+   URL: https://github.com/appwrite/appwrite/pull/10593
+
+5. fix(docs): update broken create table links in TablesDB docs
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-02T14:40:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10592
+
+6. Prepare 1.8.0-RC3 release
+   Author: stnguyen90
+   Created: 2025-10-02T01:05:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10587
+
+7. fix(sites): make queries parameter an array of strings for site list endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T12:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10584
+
+8. fix(listTemplates): correct invalid template links in Create temporary deployment endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T09:10:01Z
+   URL: https://github.com/appwrite/appwrite/pull/10581
+
+9. [draft] init payments
+   Author: atharvadeosthale
+   Created: 2025-09-30T18:14:54Z
+   URL: https://github.com/appwrite/appwrite/pull/10573
+
+10. fix: Appwrite URL typo
+   Author: amustaque97
+   Created: 2025-09-30T12:13:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10570
+
+11. Add Contributor Covenant Code of Conduct
+   Author: srihari-976
+   Created: 2025-09-30T10:06:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10568
+
+12. Add CODE_OF_CONDUCT.md to the repository
+   Author: srihari-976
+   Created: 2025-09-30T09:50:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10567
+
+13. fix: sites deployment activation instructions in createDeployment
+   Author: Priyanshuthapliyal2005
+   Created: 2025-09-30T09:14:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10566
+
+14. feat: enable task stats resources run once
+   Author: loks0n
+   Created: 2025-09-29T14:14:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10564
+
+15. Update migration for SDK update
+   Author: abnegate
+   Created: 2025-09-29T02:35:50Z
+   URL: https://github.com/appwrite/appwrite/pull/10560
+
+16. feat: add user verification enforcement for Console project
+   Author: HarshMN2345
+   Created: 2025-09-28T10:50:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10558
+
+17. doc: add note create new branches from the correct source branch
+   Author: amustaque97
+   Created: 2025-09-27T17:41:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10557
+
+18. fix(auth): validate old password before allowing password change
+   Author: ArjunSaluja
+   Created: 2025-09-26T17:36:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10556
+
+19. fix external VCS deployment flow
+   Author: hmacr
+   Created: 2025-09-26T14:19:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10555
+
+20. chore: update sdks add response models
+   Author: ChiragAgg5k
+   Created: 2025-09-26T10:03:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10554
+
+21. fix: Send deployment ready event after updating associated resource
+   Author: hmacr
+   Created: 2025-09-24T13:22:27Z
+   URL: https://github.com/appwrite/appwrite/pull/10547
+
+22. Feat csv export
+   Author: abnegate
+   Created: 2025-09-24T10:40:45Z
+   URL: https://github.com/appwrite/appwrite/pull/10546
+
+23. Fix Author URL in template deployments
+   Author: vermakhushboo
+   Created: 2025-09-22T15:00:22Z
+   URL: https://github.com/appwrite/appwrite/pull/10535
+
+24. Throw error when email is not available for account verification
+   Author: hmacr
+   Created: 2025-09-22T08:57:24Z
+   URL: https://github.com/appwrite/appwrite/pull/10533
+
+25. Fix SMTP username and password validation
+   Author: tysoncung
+   Created: 2025-09-22T01:50:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10532
+
+26. Change password with old password
+   Author: alxn787
+   Created: 2025-09-21T21:50:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10531
+
+27. Add LogRocket logging adapter for Appwrite
+   Author: alanjollyc
+   Created: 2025-09-21T15:42:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10530
+
+28. Removed templates-runtime and migrated the array contents to runtime
+   Author: Chad-007
+   Created: 2025-09-21T10:42:53Z
+   URL: https://github.com/appwrite/appwrite/pull/10526
+
+29. Replaced magic indexing for proper readability
+   Author: Chad-007
+   Created: 2025-09-20T16:39:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10524
+
+30. documentsdb api
+   Author: ArnabChatterjee20k
+   Created: 2025-09-19T14:16:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10518
+
+31. Document Error
+   Author: TarunCherukuri
+   Created: 2025-09-18T06:45:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10512
+
+32. Branded email for Console auth flows
+   Author: hmacr
+   Created: 2025-09-15T20:11:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10501
+
+33. Fix hardcoded specification defaults to use dynamic plan-based logic
+   Author: Copilot
+   Created: 2025-09-15T19:11:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10500
+
+34. Add branch-only deployments to Sites without ref tags
+   Author: atharvadeosthale
+   Created: 2025-09-13T12:28:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10486
+
+35. Improve: UX of dns flows
+   Author: Meldiron
+   Created: 2025-09-11T10:37:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10478
+
+36. Feat apps module dl
+   Author: lohanidamodar
+   Created: 2025-09-10T04:03:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10468
+
+37. Auth email redesign
+   Author: hmacr
+   Created: 2025-09-08T08:47:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10458
+
+38. Add database scheme config
+   Author: dawnmie
+   Created: 2025-09-08T05:48:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10456
+
+39. Add GitHub workflow to automatically add PRs targeting 1.8.x branch to project 15
+   Author: Copilot
+   Created: 2025-09-02T23:56:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10423
+
+40. updated migration error attribute size
+   Author: ArnabChatterjee20k
+   Created: 2025-08-29T12:50:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10407
+
+41. Prepare 1.8.0 release
+   Author: stnguyen90
+   Created: 2025-08-28T21:05:13Z
+   URL: https://github.com/appwrite/appwrite/pull/10404
+
+42. Var ID attribute
+   Author: fogelito
+   Created: 2025-08-28T11:18:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10399
+
+43. Feat Swoole v6
+   Author: abnegate
+   Created: 2025-08-26T05:28:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10371
+
+44. Fix: CLI Types Generation in Monorepo Setups
+   Author: hemanthvallapani
+   Created: 2025-08-25T15:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10368
+
+45. Add disposable email blocklist and update email validation
+   Author: satputekuldip
+   Created: 2025-08-23T21:54:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10361
+
+46. Enhance OAuth2 session handling and add React Router v7
+   Author: krishvsoni
+   Created: 2025-08-21T17:34:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10355
+
+47. docs: update the directory structure in CONTRIBUTING.md
+   Author: tejas-raskar
+   Created: 2025-08-20T09:06:38Z
+   URL: https://github.com/appwrite/appwrite/pull/10342
+
+48. Feat: AI locale translations
+   Author: Meldiron
+   Created: 2025-08-14T14:05:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10322
+
+49. Fix 810 return type for download deployment is wrong
+   Author: MicahHeneveld
+   Created: 2025-08-07T23:43:06Z
+   URL: https://github.com/appwrite/appwrite/pull/10277
+
+50. Get sequence null default
+   Author: fogelito
+   Created: 2025-08-06T06:34:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10270
+
+51. Fix JWT authentication to validate session expiration
+   Author: Copilot
+   Created: 2025-08-06T03:13:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10269
+
+52. Prepare 1.7.5 release
+   Author: stnguyen90
+   Created: 2025-08-01T23:39:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10252
+
+53. Fix: Convert Docker build args from boolean to string values
+   Author: imkuldeepahlawat
+   Created: 2025-07-31T06:45:35Z
+   URL: https://github.com/appwrite/appwrite/pull/10238
+
+54. Update MongoDB
+   Author: shimonewman
+   Created: 2025-07-28T08:13:56Z
+   URL: https://github.com/appwrite/appwrite/pull/10215
+
+55. Remove obsolete doc for flutter
+   Author: Sahil4883
+   Created: 2025-07-26T16:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10211
+
+56. fix: update hardcoded year 2024 to 2025 in tests and popup
+   Author: ZunedKhan07
+   Created: 2025-07-26T09:02:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10210
+
+57. Add execution delay headers to async, event-triggered and sync executions
+   Author: vermakhushboo
+   Created: 2025-07-23T07:21:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10191
+
+58. added temporary blocking the delete of null metadata docs
+   Author: ArnabChatterjee20k
+   Created: 2025-07-21T10:52:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10178
+
+59. 1.8.x
+   Author: abnegate
+   Created: 2025-07-21T07:14:30Z
+   URL: https://github.com/appwrite/appwrite/pull/10176
+
+60. TypeScript: created extra DocumentBase containing all default attributes of Documents
+   Author: bdblaere
+   Created: 2025-07-20T18:11:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10171
+
+61. fix: log against tables api
+   Author: ItzNotABug
+   Created: 2025-07-19T09:44:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10166
+
+62. Added tests for the sequence filter
+   Author: ArnabChatterjee20k
+   Created: 2025-07-18T05:27:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10159
+
+63. Deletes 1d 365 days
+   Author: fogelito
+   Created: 2025-07-14T13:16:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10146
+
+64. Fix: CI/CD flakyness
+   Author: Meldiron
+   Created: 2025-07-08T10:40:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10122
+
+65. Fix amqp
+   Author: abnegate
+   Created: 2025-07-04T23:26:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10106
+
+66. Only delete schedule document if execution is successful
+   Author: vermakhushboo
+   Created: 2025-07-04T06:54:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10102
+
+67. Ring loop dispatch
+   Author: abnegate
+   Created: 2025-07-04T00:31:46Z
+   URL: https://github.com/appwrite/appwrite/pull/10100
+
+68. Update to PHP 8.4.8, Swoole 6.0.2
+   Author: abnegate
+   Created: 2025-07-02T20:49:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10093
+
+69. feat: added clerk Oauth as provider and updated specs
+   Author: Nishantjain10
+   Created: 2025-06-28T14:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10074
+
+70. Responsible disclosure improvements
+   Author: EVDOG4LIFE
+   Created: 2025-06-25T23:45:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10058
+
+71. Feat graceful shutdown
+   Author: abnegate
+   Created: 2025-06-23T19:13:48Z
+   URL: https://github.com/appwrite/appwrite/pull/10045
+
+72. fix:  Users.CreateUser... vague error into optional name parameter.
+   Author: Abiji-2020
+   Created: 2025-06-20T17:12:49Z
+   URL: https://github.com/appwrite/appwrite/pull/10033
+
+73. [WIP] Add formspree, clerk and react-admin templates to sites
+   Author: vermakhushboo
+   Created: 2025-06-19T15:33:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10031
+
+74. Feat txn
+   Author: abnegate
+   Created: 2025-06-18T02:11:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10023
+
+75. Not: Edge differences
+   Author: Meldiron
+   Created: 2025-06-04T10:57:16Z
+   URL: https://github.com/appwrite/appwrite/pull/9968
+
+76. Ask users to have backups before installing the new version and fix cap letter.
+   Author: DH-555
+   Created: 2025-05-27T19:10:47Z
+   URL: https://github.com/appwrite/appwrite/pull/9917
+
+77. fix: update error message for site size limit
+   Author: Julien-prrs
+   Created: 2025-05-26T17:40:17Z
+   URL: https://github.com/appwrite/appwrite/pull/9905
+
+78. fix: Update es.json to resolve `{{name}}` bug
+   Author: alejndr0
+   Created: 2025-05-25T14:06:22Z
+   URL: https://github.com/appwrite/appwrite/pull/9889
+
+79. Feat kakao oauth
+   Author: BaekMinHyeok
+   Created: 2025-05-25T06:47:10Z
+   URL: https://github.com/appwrite/appwrite/pull/9887
+
+80. Ajout d'une astuce Git à la traduction française
+   Author: RyZenoKelb
+   Created: 2025-05-24T13:30:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9885
+
+81. Sairam
+   Author: Sairamtony
+   Created: 2025-05-22T05:52:39Z
+   URL: https://github.com/appwrite/appwrite/pull/9857
+
+82. Update README.md
+   Author: LauraDuRy
+   Created: 2025-05-20T06:01:20Z
+   URL: https://github.com/appwrite/appwrite/pull/9827
+
+83. Fix: Flutter env limits!
+   Author: ItzNotABug
+   Created: 2025-05-19T13:46:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9819
+
+84. Update CHANGELOG.md
+   Author: kamil-k7
+   Created: 2025-05-19T12:36:01Z
+   URL: https://github.com/appwrite/appwrite/pull/9817
+
+85. Move Console envs to Appwrite
+   Author: ItzNotABug
+   Created: 2025-05-19T10:38:07Z
+   URL: https://github.com/appwrite/appwrite/pull/9813
+
+86. Update Authentik.php
+   Author: darsh12
+   Created: 2025-05-18T19:55:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9803
+
+87. experiment: fastly mock proxy
+   Author: TorstenDittmann
+   Created: 2025-05-18T15:43:23Z
+   URL: https://github.com/appwrite/appwrite/pull/9799
+
+88. Use streaming to create runtimes with the executor
+   Author: TorstenDittmann
+   Created: 2025-05-17T19:52:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9785
+
+89. Pg adapter installation
+   Author: ArnabChatterjee20k
+   Created: 2025-05-16T08:42:45Z
+   URL: https://github.com/appwrite/appwrite/pull/9772
+
+90. Chore debug tests
+   Author: vermakhushboo
+   Created: 2025-05-06T19:24:55Z
+   URL: https://github.com/appwrite/appwrite/pull/9730
+
+91. fix: validate SMTP username and password during SMTP settings
+   Author: susubot
+   Created: 2025-05-01T10:44:53Z
+   URL: https://github.com/appwrite/appwrite/pull/9711
+
+92. Tls Cert failed msg override
+   Author: shimonewman
+   Created: 2025-04-28T14:55:02Z
+   URL: https://github.com/appwrite/appwrite/pull/9697
+
+93. Feat: Configurable sizes
+   Author: Meldiron
+   Created: 2025-04-24T13:43:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9686
+
+94. fix: validate SMTP credentials using SMTPAuth
+   Author: kateliuhyd
+   Created: 2025-04-19T05:59:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9668
+
+95. Feat: additional indexes
+   Author: lohanidamodar
+   Created: 2025-04-09T06:00:35Z
+   URL: https://github.com/appwrite/appwrite/pull/9629
+
+96. Split Docker Compose into multiple files for better organization
+   Author: TorstenDittmann
+   Created: 2025-04-08T00:13:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9621
+
+97. fix: improve error messages in auth controller
+   Author: gamzeozgul
+   Created: 2025-04-06T19:45:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9617
+
+98. Fix: Correct error handling for int values like documentId = 123
+   Author: urooj-vX
+   Created: 2025-04-04T20:56:11Z
+   URL: https://github.com/appwrite/appwrite/pull/9613
+
+99. Fix: vcs tests
+   Author: Meldiron
+   Created: 2025-04-03T07:53:18Z
+   URL: https://github.com/appwrite/appwrite/pull/9609
+
+100. Fix the build status badge in README files
+   Author: PeterDaveHello
+   Created: 2025-03-30T08:41:03Z
+   URL: https://github.com/appwrite/appwrite/pull/9595
+
+CSV file created at: test-results/pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch all pull requests (open and closed)" classname="test-case-4.spec.ts" time="1.109">
+<system-out>
+<![CDATA[Found 100 total pull requests
+Open PRs: 37
+Closed PRs: 63
+
+Sample open PRs:
+1. Fixed #10599 - fixed the X URL  (Lanthoiba2022)
+2. Sanitize 5xx errors on realtime (ItzNotABug)
+3. Update database (abnegate)
+
+Sample closed PRs:
+1. chore: update composer dependencies (ChiragAgg5k)
+2. Move disable (stnguyen90)
+3. chore: revert 1.6.x to 1.6.2 (stnguyen90)
+All PRs CSV file created at: test-results/all-pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should validate CSV format and content" classname="test-case-4.spec.ts" time="0.293">
+<system-out>
+<![CDATA[CSV Content:
+PR Name,Created Date,Author,URL
+"Fixed #10599 - fixed the X URL ","2025-10-04T18:27:29Z","Lanthoiba2022","https://github.com/appwrite/appwrite/pull/10600"
+"Sanitize 5xx errors on realtime","2025-10-04T13:09:25Z","ItzNotABug","https://github.com/appwrite/appwrite/pull/10598"
+"Update database","2025-10-03T12:38:31Z","abnegate","https://github.com/appwrite/appwrite/pull/10596"
+"Feat: update facts on GitHub sites and functions","2025-10-02T17:45:23Z","HarshMN2345","https://github.com/appwrite/appwrite/pull/10593"
+"fix(docs): update broken create table links in TablesDB docs","2025-10-02T14:40:44Z","Priyanshuthapliyal2005","https://github.com/appwrite/appwrite/pull/10592"
+CSV format validation passed
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should handle CSV export functionality with mock data" classname="test-case-4.spec.ts" time="0.003">
+<system-out>
+<![CDATA[Mock CSV file created at: ./test-results/mock-pull-requests.csv
+Mock data contains 2 pull requests
+CSV export functionality verified with mock data
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-1.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="firefox" tests="2" failures="0" skipped="0" time="6.613" errors="0">
+<testcase name="Test Case 1: Basic Website Test › should load the FashionHub website successfully" classname="test-case-1.spec.ts" time="3.447">
+<system-out>
+<![CDATA[Page title: Home - FashionHub
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 1: Basic Website Test › should have working navigation" classname="test-case-1.spec.ts" time="3.166">
+<system-out>
+<![CDATA[Navigation elements found and visible
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-2.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="firefox" tests="2" failures="0" skipped="0" time="6.385" errors="0">
+<testcase name="Test Case 2: Link Status Code Validation › should verify all links return 200 or 30x status codes" classname="test-case-2.spec.ts" time="3.39">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+
+Link Check Summary:
+Total links: 6
+Successful links: 6
+Failed links: 0
+Success rate: 100.00%
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2: Link Status Code Validation › should verify specific page links work correctly" classname="test-case-2.spec.ts" time="2.995">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-3.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="firefox" tests="3" failures="0" skipped="0" time="8.514" errors="0">
+<testcase name="Test Case 3: Login Functionality Verification › should successfully log in with valid credentials" classname="test-case-3.spec.ts" time="3.502">
+<system-out>
+<![CDATA[Using credentials - Username: demouser
+Current URL after login: https://pocketaces2.github.io/fashionhub/account.html
+Found success indicator: Welcome
+URL changed after login, indicating successful authentication
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should handle invalid credentials appropriately" classname="test-case-3.spec.ts" time="3.239">
+<system-out>
+<![CDATA[Found error indicator: Invalid
+Still on login page: true
+Error message found: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should verify login form elements are present" classname="test-case-3.spec.ts" time="1.773">
+</testcase>
+</testsuite>
+<testsuite name="test-case-4.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="firefox" tests="4" failures="0" skipped="0" time="1.347" errors="0">
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch and export open pull requests to CSV" classname="test-case-4.spec.ts" time="0.972">
+<system-out>
+<![CDATA[Found 100 open pull requests
+1. Fixed #10599 - fixed the X URL 
+   Author: Lanthoiba2022
+   Created: 2025-10-04T18:27:29Z
+   URL: https://github.com/appwrite/appwrite/pull/10600
+
+2. Sanitize 5xx errors on realtime
+   Author: ItzNotABug
+   Created: 2025-10-04T13:09:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10598
+
+3. Update database
+   Author: abnegate
+   Created: 2025-10-03T12:38:31Z
+   URL: https://github.com/appwrite/appwrite/pull/10596
+
+4. Feat: update facts on GitHub sites and functions
+   Author: HarshMN2345
+   Created: 2025-10-02T17:45:23Z
+   URL: https://github.com/appwrite/appwrite/pull/10593
+
+5. fix(docs): update broken create table links in TablesDB docs
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-02T14:40:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10592
+
+6. Prepare 1.8.0-RC3 release
+   Author: stnguyen90
+   Created: 2025-10-02T01:05:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10587
+
+7. fix(sites): make queries parameter an array of strings for site list endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T12:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10584
+
+8. fix(listTemplates): correct invalid template links in Create temporary deployment endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T09:10:01Z
+   URL: https://github.com/appwrite/appwrite/pull/10581
+
+9. [draft] init payments
+   Author: atharvadeosthale
+   Created: 2025-09-30T18:14:54Z
+   URL: https://github.com/appwrite/appwrite/pull/10573
+
+10. fix: Appwrite URL typo
+   Author: amustaque97
+   Created: 2025-09-30T12:13:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10570
+
+11. Add Contributor Covenant Code of Conduct
+   Author: srihari-976
+   Created: 2025-09-30T10:06:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10568
+
+12. Add CODE_OF_CONDUCT.md to the repository
+   Author: srihari-976
+   Created: 2025-09-30T09:50:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10567
+
+13. fix: sites deployment activation instructions in createDeployment
+   Author: Priyanshuthapliyal2005
+   Created: 2025-09-30T09:14:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10566
+
+14. feat: enable task stats resources run once
+   Author: loks0n
+   Created: 2025-09-29T14:14:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10564
+
+15. Update migration for SDK update
+   Author: abnegate
+   Created: 2025-09-29T02:35:50Z
+   URL: https://github.com/appwrite/appwrite/pull/10560
+
+16. feat: add user verification enforcement for Console project
+   Author: HarshMN2345
+   Created: 2025-09-28T10:50:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10558
+
+17. doc: add note create new branches from the correct source branch
+   Author: amustaque97
+   Created: 2025-09-27T17:41:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10557
+
+18. fix(auth): validate old password before allowing password change
+   Author: ArjunSaluja
+   Created: 2025-09-26T17:36:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10556
+
+19. fix external VCS deployment flow
+   Author: hmacr
+   Created: 2025-09-26T14:19:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10555
+
+20. chore: update sdks add response models
+   Author: ChiragAgg5k
+   Created: 2025-09-26T10:03:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10554
+
+21. fix: Send deployment ready event after updating associated resource
+   Author: hmacr
+   Created: 2025-09-24T13:22:27Z
+   URL: https://github.com/appwrite/appwrite/pull/10547
+
+22. Feat csv export
+   Author: abnegate
+   Created: 2025-09-24T10:40:45Z
+   URL: https://github.com/appwrite/appwrite/pull/10546
+
+23. Fix Author URL in template deployments
+   Author: vermakhushboo
+   Created: 2025-09-22T15:00:22Z
+   URL: https://github.com/appwrite/appwrite/pull/10535
+
+24. Throw error when email is not available for account verification
+   Author: hmacr
+   Created: 2025-09-22T08:57:24Z
+   URL: https://github.com/appwrite/appwrite/pull/10533
+
+25. Fix SMTP username and password validation
+   Author: tysoncung
+   Created: 2025-09-22T01:50:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10532
+
+26. Change password with old password
+   Author: alxn787
+   Created: 2025-09-21T21:50:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10531
+
+27. Add LogRocket logging adapter for Appwrite
+   Author: alanjollyc
+   Created: 2025-09-21T15:42:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10530
+
+28. Removed templates-runtime and migrated the array contents to runtime
+   Author: Chad-007
+   Created: 2025-09-21T10:42:53Z
+   URL: https://github.com/appwrite/appwrite/pull/10526
+
+29. Replaced magic indexing for proper readability
+   Author: Chad-007
+   Created: 2025-09-20T16:39:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10524
+
+30. documentsdb api
+   Author: ArnabChatterjee20k
+   Created: 2025-09-19T14:16:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10518
+
+31. Document Error
+   Author: TarunCherukuri
+   Created: 2025-09-18T06:45:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10512
+
+32. Branded email for Console auth flows
+   Author: hmacr
+   Created: 2025-09-15T20:11:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10501
+
+33. Fix hardcoded specification defaults to use dynamic plan-based logic
+   Author: Copilot
+   Created: 2025-09-15T19:11:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10500
+
+34. Add branch-only deployments to Sites without ref tags
+   Author: atharvadeosthale
+   Created: 2025-09-13T12:28:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10486
+
+35. Improve: UX of dns flows
+   Author: Meldiron
+   Created: 2025-09-11T10:37:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10478
+
+36. Feat apps module dl
+   Author: lohanidamodar
+   Created: 2025-09-10T04:03:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10468
+
+37. Auth email redesign
+   Author: hmacr
+   Created: 2025-09-08T08:47:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10458
+
+38. Add database scheme config
+   Author: dawnmie
+   Created: 2025-09-08T05:48:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10456
+
+39. Add GitHub workflow to automatically add PRs targeting 1.8.x branch to project 15
+   Author: Copilot
+   Created: 2025-09-02T23:56:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10423
+
+40. updated migration error attribute size
+   Author: ArnabChatterjee20k
+   Created: 2025-08-29T12:50:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10407
+
+41. Prepare 1.8.0 release
+   Author: stnguyen90
+   Created: 2025-08-28T21:05:13Z
+   URL: https://github.com/appwrite/appwrite/pull/10404
+
+42. Var ID attribute
+   Author: fogelito
+   Created: 2025-08-28T11:18:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10399
+
+43. Feat Swoole v6
+   Author: abnegate
+   Created: 2025-08-26T05:28:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10371
+
+44. Fix: CLI Types Generation in Monorepo Setups
+   Author: hemanthvallapani
+   Created: 2025-08-25T15:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10368
+
+45. Add disposable email blocklist and update email validation
+   Author: satputekuldip
+   Created: 2025-08-23T21:54:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10361
+
+46. Enhance OAuth2 session handling and add React Router v7
+   Author: krishvsoni
+   Created: 2025-08-21T17:34:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10355
+
+47. docs: update the directory structure in CONTRIBUTING.md
+   Author: tejas-raskar
+   Created: 2025-08-20T09:06:38Z
+   URL: https://github.com/appwrite/appwrite/pull/10342
+
+48. Feat: AI locale translations
+   Author: Meldiron
+   Created: 2025-08-14T14:05:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10322
+
+49. Fix 810 return type for download deployment is wrong
+   Author: MicahHeneveld
+   Created: 2025-08-07T23:43:06Z
+   URL: https://github.com/appwrite/appwrite/pull/10277
+
+50. Get sequence null default
+   Author: fogelito
+   Created: 2025-08-06T06:34:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10270
+
+51. Fix JWT authentication to validate session expiration
+   Author: Copilot
+   Created: 2025-08-06T03:13:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10269
+
+52. Prepare 1.7.5 release
+   Author: stnguyen90
+   Created: 2025-08-01T23:39:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10252
+
+53. Fix: Convert Docker build args from boolean to string values
+   Author: imkuldeepahlawat
+   Created: 2025-07-31T06:45:35Z
+   URL: https://github.com/appwrite/appwrite/pull/10238
+
+54. Update MongoDB
+   Author: shimonewman
+   Created: 2025-07-28T08:13:56Z
+   URL: https://github.com/appwrite/appwrite/pull/10215
+
+55. Remove obsolete doc for flutter
+   Author: Sahil4883
+   Created: 2025-07-26T16:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10211
+
+56. fix: update hardcoded year 2024 to 2025 in tests and popup
+   Author: ZunedKhan07
+   Created: 2025-07-26T09:02:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10210
+
+57. Add execution delay headers to async, event-triggered and sync executions
+   Author: vermakhushboo
+   Created: 2025-07-23T07:21:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10191
+
+58. added temporary blocking the delete of null metadata docs
+   Author: ArnabChatterjee20k
+   Created: 2025-07-21T10:52:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10178
+
+59. 1.8.x
+   Author: abnegate
+   Created: 2025-07-21T07:14:30Z
+   URL: https://github.com/appwrite/appwrite/pull/10176
+
+60. TypeScript: created extra DocumentBase containing all default attributes of Documents
+   Author: bdblaere
+   Created: 2025-07-20T18:11:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10171
+
+61. fix: log against tables api
+   Author: ItzNotABug
+   Created: 2025-07-19T09:44:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10166
+
+62. Added tests for the sequence filter
+   Author: ArnabChatterjee20k
+   Created: 2025-07-18T05:27:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10159
+
+63. Deletes 1d 365 days
+   Author: fogelito
+   Created: 2025-07-14T13:16:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10146
+
+64. Fix: CI/CD flakyness
+   Author: Meldiron
+   Created: 2025-07-08T10:40:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10122
+
+65. Fix amqp
+   Author: abnegate
+   Created: 2025-07-04T23:26:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10106
+
+66. Only delete schedule document if execution is successful
+   Author: vermakhushboo
+   Created: 2025-07-04T06:54:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10102
+
+67. Ring loop dispatch
+   Author: abnegate
+   Created: 2025-07-04T00:31:46Z
+   URL: https://github.com/appwrite/appwrite/pull/10100
+
+68. Update to PHP 8.4.8, Swoole 6.0.2
+   Author: abnegate
+   Created: 2025-07-02T20:49:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10093
+
+69. feat: added clerk Oauth as provider and updated specs
+   Author: Nishantjain10
+   Created: 2025-06-28T14:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10074
+
+70. Responsible disclosure improvements
+   Author: EVDOG4LIFE
+   Created: 2025-06-25T23:45:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10058
+
+71. Feat graceful shutdown
+   Author: abnegate
+   Created: 2025-06-23T19:13:48Z
+   URL: https://github.com/appwrite/appwrite/pull/10045
+
+72. fix:  Users.CreateUser... vague error into optional name parameter.
+   Author: Abiji-2020
+   Created: 2025-06-20T17:12:49Z
+   URL: https://github.com/appwrite/appwrite/pull/10033
+
+73. [WIP] Add formspree, clerk and react-admin templates to sites
+   Author: vermakhushboo
+   Created: 2025-06-19T15:33:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10031
+
+74. Feat txn
+   Author: abnegate
+   Created: 2025-06-18T02:11:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10023
+
+75. Not: Edge differences
+   Author: Meldiron
+   Created: 2025-06-04T10:57:16Z
+   URL: https://github.com/appwrite/appwrite/pull/9968
+
+76. Ask users to have backups before installing the new version and fix cap letter.
+   Author: DH-555
+   Created: 2025-05-27T19:10:47Z
+   URL: https://github.com/appwrite/appwrite/pull/9917
+
+77. fix: update error message for site size limit
+   Author: Julien-prrs
+   Created: 2025-05-26T17:40:17Z
+   URL: https://github.com/appwrite/appwrite/pull/9905
+
+78. fix: Update es.json to resolve `{{name}}` bug
+   Author: alejndr0
+   Created: 2025-05-25T14:06:22Z
+   URL: https://github.com/appwrite/appwrite/pull/9889
+
+79. Feat kakao oauth
+   Author: BaekMinHyeok
+   Created: 2025-05-25T06:47:10Z
+   URL: https://github.com/appwrite/appwrite/pull/9887
+
+80. Ajout d'une astuce Git à la traduction française
+   Author: RyZenoKelb
+   Created: 2025-05-24T13:30:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9885
+
+81. Sairam
+   Author: Sairamtony
+   Created: 2025-05-22T05:52:39Z
+   URL: https://github.com/appwrite/appwrite/pull/9857
+
+82. Update README.md
+   Author: LauraDuRy
+   Created: 2025-05-20T06:01:20Z
+   URL: https://github.com/appwrite/appwrite/pull/9827
+
+83. Fix: Flutter env limits!
+   Author: ItzNotABug
+   Created: 2025-05-19T13:46:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9819
+
+84. Update CHANGELOG.md
+   Author: kamil-k7
+   Created: 2025-05-19T12:36:01Z
+   URL: https://github.com/appwrite/appwrite/pull/9817
+
+85. Move Console envs to Appwrite
+   Author: ItzNotABug
+   Created: 2025-05-19T10:38:07Z
+   URL: https://github.com/appwrite/appwrite/pull/9813
+
+86. Update Authentik.php
+   Author: darsh12
+   Created: 2025-05-18T19:55:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9803
+
+87. experiment: fastly mock proxy
+   Author: TorstenDittmann
+   Created: 2025-05-18T15:43:23Z
+   URL: https://github.com/appwrite/appwrite/pull/9799
+
+88. Use streaming to create runtimes with the executor
+   Author: TorstenDittmann
+   Created: 2025-05-17T19:52:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9785
+
+89. Pg adapter installation
+   Author: ArnabChatterjee20k
+   Created: 2025-05-16T08:42:45Z
+   URL: https://github.com/appwrite/appwrite/pull/9772
+
+90. Chore debug tests
+   Author: vermakhushboo
+   Created: 2025-05-06T19:24:55Z
+   URL: https://github.com/appwrite/appwrite/pull/9730
+
+91. fix: validate SMTP username and password during SMTP settings
+   Author: susubot
+   Created: 2025-05-01T10:44:53Z
+   URL: https://github.com/appwrite/appwrite/pull/9711
+
+92. Tls Cert failed msg override
+   Author: shimonewman
+   Created: 2025-04-28T14:55:02Z
+   URL: https://github.com/appwrite/appwrite/pull/9697
+
+93. Feat: Configurable sizes
+   Author: Meldiron
+   Created: 2025-04-24T13:43:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9686
+
+94. fix: validate SMTP credentials using SMTPAuth
+   Author: kateliuhyd
+   Created: 2025-04-19T05:59:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9668
+
+95. Feat: additional indexes
+   Author: lohanidamodar
+   Created: 2025-04-09T06:00:35Z
+   URL: https://github.com/appwrite/appwrite/pull/9629
+
+96. Split Docker Compose into multiple files for better organization
+   Author: TorstenDittmann
+   Created: 2025-04-08T00:13:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9621
+
+97. fix: improve error messages in auth controller
+   Author: gamzeozgul
+   Created: 2025-04-06T19:45:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9617
+
+98. Fix: Correct error handling for int values like documentId = 123
+   Author: urooj-vX
+   Created: 2025-04-04T20:56:11Z
+   URL: https://github.com/appwrite/appwrite/pull/9613
+
+99. Fix: vcs tests
+   Author: Meldiron
+   Created: 2025-04-03T07:53:18Z
+   URL: https://github.com/appwrite/appwrite/pull/9609
+
+100. Fix the build status badge in README files
+   Author: PeterDaveHello
+   Created: 2025-03-30T08:41:03Z
+   URL: https://github.com/appwrite/appwrite/pull/9595
+
+CSV file created at: test-results/pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch all pull requests (open and closed)" classname="test-case-4.spec.ts" time="0.088">
+<system-out>
+<![CDATA[Found 100 total pull requests
+Open PRs: 37
+Closed PRs: 63
+
+Sample open PRs:
+1. Fixed #10599 - fixed the X URL  (Lanthoiba2022)
+2. Sanitize 5xx errors on realtime (ItzNotABug)
+3. Update database (abnegate)
+
+Sample closed PRs:
+1. chore: update composer dependencies (ChiragAgg5k)
+2. Move disable (stnguyen90)
+3. chore: revert 1.6.x to 1.6.2 (stnguyen90)
+All PRs CSV file created at: test-results/all-pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should validate CSV format and content" classname="test-case-4.spec.ts" time="0.278">
+<system-out>
+<![CDATA[CSV Content:
+PR Name,Created Date,Author,URL
+"Fixed #10599 - fixed the X URL ","2025-10-04T18:27:29Z","Lanthoiba2022","https://github.com/appwrite/appwrite/pull/10600"
+"Sanitize 5xx errors on realtime","2025-10-04T13:09:25Z","ItzNotABug","https://github.com/appwrite/appwrite/pull/10598"
+"Update database","2025-10-03T12:38:31Z","abnegate","https://github.com/appwrite/appwrite/pull/10596"
+"Feat: update facts on GitHub sites and functions","2025-10-02T17:45:23Z","HarshMN2345","https://github.com/appwrite/appwrite/pull/10593"
+"fix(docs): update broken create table links in TablesDB docs","2025-10-02T14:40:44Z","Priyanshuthapliyal2005","https://github.com/appwrite/appwrite/pull/10592"
+CSV format validation passed
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should handle CSV export functionality with mock data" classname="test-case-4.spec.ts" time="0.009">
+<system-out>
+<![CDATA[Mock CSV file created at: ./test-results/mock-pull-requests.csv
+Mock data contains 2 pull requests
+CSV export functionality verified with mock data
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-1.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="webkit" tests="2" failures="0" skipped="0" time="3.554" errors="0">
+<testcase name="Test Case 1: Basic Website Test › should load the FashionHub website successfully" classname="test-case-1.spec.ts" time="1.753">
+<system-out>
+<![CDATA[Page title: Home - FashionHub
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 1: Basic Website Test › should have working navigation" classname="test-case-1.spec.ts" time="1.801">
+<system-out>
+<![CDATA[Navigation elements found and visible
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-2.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="webkit" tests="2" failures="0" skipped="0" time="3.259" errors="0">
+<testcase name="Test Case 2: Link Status Code Validation › should verify all links return 200 or 30x status codes" classname="test-case-2.spec.ts" time="2.107">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+
+Link Check Summary:
+Total links: 6
+Successful links: 6
+Failed links: 0
+Success rate: 100.00%
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2: Link Status Code Validation › should verify specific page links work correctly" classname="test-case-2.spec.ts" time="1.152">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-3.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="webkit" tests="3" failures="0" skipped="0" time="6.657" errors="0">
+<testcase name="Test Case 3: Login Functionality Verification › should successfully log in with valid credentials" classname="test-case-3.spec.ts" time="2.827">
+<system-out>
+<![CDATA[Using credentials - Username: demouser
+Current URL after login: https://pocketaces2.github.io/fashionhub/account.html
+Found success indicator: Welcome
+URL changed after login, indicating successful authentication
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should handle invalid credentials appropriately" classname="test-case-3.spec.ts" time="2.73">
+<system-out>
+<![CDATA[Found error indicator: Invalid
+Still on login page: true
+Error message found: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should verify login form elements are present" classname="test-case-3.spec.ts" time="1.1">
+</testcase>
+</testsuite>
+<testsuite name="test-case-4.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="webkit" tests="4" failures="0" skipped="0" time="0.577" errors="0">
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch and export open pull requests to CSV" classname="test-case-4.spec.ts" time="0.277">
+<system-out>
+<![CDATA[Found 100 open pull requests
+1. Fixed #10599 - fixed the X URL 
+   Author: Lanthoiba2022
+   Created: 2025-10-04T18:27:29Z
+   URL: https://github.com/appwrite/appwrite/pull/10600
+
+2. Sanitize 5xx errors on realtime
+   Author: ItzNotABug
+   Created: 2025-10-04T13:09:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10598
+
+3. Update database
+   Author: abnegate
+   Created: 2025-10-03T12:38:31Z
+   URL: https://github.com/appwrite/appwrite/pull/10596
+
+4. Feat: update facts on GitHub sites and functions
+   Author: HarshMN2345
+   Created: 2025-10-02T17:45:23Z
+   URL: https://github.com/appwrite/appwrite/pull/10593
+
+5. fix(docs): update broken create table links in TablesDB docs
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-02T14:40:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10592
+
+6. Prepare 1.8.0-RC3 release
+   Author: stnguyen90
+   Created: 2025-10-02T01:05:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10587
+
+7. fix(sites): make queries parameter an array of strings for site list endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T12:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10584
+
+8. fix(listTemplates): correct invalid template links in Create temporary deployment endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T09:10:01Z
+   URL: https://github.com/appwrite/appwrite/pull/10581
+
+9. [draft] init payments
+   Author: atharvadeosthale
+   Created: 2025-09-30T18:14:54Z
+   URL: https://github.com/appwrite/appwrite/pull/10573
+
+10. fix: Appwrite URL typo
+   Author: amustaque97
+   Created: 2025-09-30T12:13:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10570
+
+11. Add Contributor Covenant Code of Conduct
+   Author: srihari-976
+   Created: 2025-09-30T10:06:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10568
+
+12. Add CODE_OF_CONDUCT.md to the repository
+   Author: srihari-976
+   Created: 2025-09-30T09:50:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10567
+
+13. fix: sites deployment activation instructions in createDeployment
+   Author: Priyanshuthapliyal2005
+   Created: 2025-09-30T09:14:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10566
+
+14. feat: enable task stats resources run once
+   Author: loks0n
+   Created: 2025-09-29T14:14:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10564
+
+15. Update migration for SDK update
+   Author: abnegate
+   Created: 2025-09-29T02:35:50Z
+   URL: https://github.com/appwrite/appwrite/pull/10560
+
+16. feat: add user verification enforcement for Console project
+   Author: HarshMN2345
+   Created: 2025-09-28T10:50:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10558
+
+17. doc: add note create new branches from the correct source branch
+   Author: amustaque97
+   Created: 2025-09-27T17:41:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10557
+
+18. fix(auth): validate old password before allowing password change
+   Author: ArjunSaluja
+   Created: 2025-09-26T17:36:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10556
+
+19. fix external VCS deployment flow
+   Author: hmacr
+   Created: 2025-09-26T14:19:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10555
+
+20. chore: update sdks add response models
+   Author: ChiragAgg5k
+   Created: 2025-09-26T10:03:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10554
+
+21. fix: Send deployment ready event after updating associated resource
+   Author: hmacr
+   Created: 2025-09-24T13:22:27Z
+   URL: https://github.com/appwrite/appwrite/pull/10547
+
+22. Feat csv export
+   Author: abnegate
+   Created: 2025-09-24T10:40:45Z
+   URL: https://github.com/appwrite/appwrite/pull/10546
+
+23. Fix Author URL in template deployments
+   Author: vermakhushboo
+   Created: 2025-09-22T15:00:22Z
+   URL: https://github.com/appwrite/appwrite/pull/10535
+
+24. Throw error when email is not available for account verification
+   Author: hmacr
+   Created: 2025-09-22T08:57:24Z
+   URL: https://github.com/appwrite/appwrite/pull/10533
+
+25. Fix SMTP username and password validation
+   Author: tysoncung
+   Created: 2025-09-22T01:50:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10532
+
+26. Change password with old password
+   Author: alxn787
+   Created: 2025-09-21T21:50:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10531
+
+27. Add LogRocket logging adapter for Appwrite
+   Author: alanjollyc
+   Created: 2025-09-21T15:42:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10530
+
+28. Removed templates-runtime and migrated the array contents to runtime
+   Author: Chad-007
+   Created: 2025-09-21T10:42:53Z
+   URL: https://github.com/appwrite/appwrite/pull/10526
+
+29. Replaced magic indexing for proper readability
+   Author: Chad-007
+   Created: 2025-09-20T16:39:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10524
+
+30. documentsdb api
+   Author: ArnabChatterjee20k
+   Created: 2025-09-19T14:16:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10518
+
+31. Document Error
+   Author: TarunCherukuri
+   Created: 2025-09-18T06:45:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10512
+
+32. Branded email for Console auth flows
+   Author: hmacr
+   Created: 2025-09-15T20:11:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10501
+
+33. Fix hardcoded specification defaults to use dynamic plan-based logic
+   Author: Copilot
+   Created: 2025-09-15T19:11:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10500
+
+34. Add branch-only deployments to Sites without ref tags
+   Author: atharvadeosthale
+   Created: 2025-09-13T12:28:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10486
+
+35. Improve: UX of dns flows
+   Author: Meldiron
+   Created: 2025-09-11T10:37:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10478
+
+36. Feat apps module dl
+   Author: lohanidamodar
+   Created: 2025-09-10T04:03:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10468
+
+37. Auth email redesign
+   Author: hmacr
+   Created: 2025-09-08T08:47:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10458
+
+38. Add database scheme config
+   Author: dawnmie
+   Created: 2025-09-08T05:48:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10456
+
+39. Add GitHub workflow to automatically add PRs targeting 1.8.x branch to project 15
+   Author: Copilot
+   Created: 2025-09-02T23:56:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10423
+
+40. updated migration error attribute size
+   Author: ArnabChatterjee20k
+   Created: 2025-08-29T12:50:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10407
+
+41. Prepare 1.8.0 release
+   Author: stnguyen90
+   Created: 2025-08-28T21:05:13Z
+   URL: https://github.com/appwrite/appwrite/pull/10404
+
+42. Var ID attribute
+   Author: fogelito
+   Created: 2025-08-28T11:18:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10399
+
+43. Feat Swoole v6
+   Author: abnegate
+   Created: 2025-08-26T05:28:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10371
+
+44. Fix: CLI Types Generation in Monorepo Setups
+   Author: hemanthvallapani
+   Created: 2025-08-25T15:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10368
+
+45. Add disposable email blocklist and update email validation
+   Author: satputekuldip
+   Created: 2025-08-23T21:54:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10361
+
+46. Enhance OAuth2 session handling and add React Router v7
+   Author: krishvsoni
+   Created: 2025-08-21T17:34:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10355
+
+47. docs: update the directory structure in CONTRIBUTING.md
+   Author: tejas-raskar
+   Created: 2025-08-20T09:06:38Z
+   URL: https://github.com/appwrite/appwrite/pull/10342
+
+48. Feat: AI locale translations
+   Author: Meldiron
+   Created: 2025-08-14T14:05:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10322
+
+49. Fix 810 return type for download deployment is wrong
+   Author: MicahHeneveld
+   Created: 2025-08-07T23:43:06Z
+   URL: https://github.com/appwrite/appwrite/pull/10277
+
+50. Get sequence null default
+   Author: fogelito
+   Created: 2025-08-06T06:34:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10270
+
+51. Fix JWT authentication to validate session expiration
+   Author: Copilot
+   Created: 2025-08-06T03:13:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10269
+
+52. Prepare 1.7.5 release
+   Author: stnguyen90
+   Created: 2025-08-01T23:39:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10252
+
+53. Fix: Convert Docker build args from boolean to string values
+   Author: imkuldeepahlawat
+   Created: 2025-07-31T06:45:35Z
+   URL: https://github.com/appwrite/appwrite/pull/10238
+
+54. Update MongoDB
+   Author: shimonewman
+   Created: 2025-07-28T08:13:56Z
+   URL: https://github.com/appwrite/appwrite/pull/10215
+
+55. Remove obsolete doc for flutter
+   Author: Sahil4883
+   Created: 2025-07-26T16:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10211
+
+56. fix: update hardcoded year 2024 to 2025 in tests and popup
+   Author: ZunedKhan07
+   Created: 2025-07-26T09:02:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10210
+
+57. Add execution delay headers to async, event-triggered and sync executions
+   Author: vermakhushboo
+   Created: 2025-07-23T07:21:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10191
+
+58. added temporary blocking the delete of null metadata docs
+   Author: ArnabChatterjee20k
+   Created: 2025-07-21T10:52:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10178
+
+59. 1.8.x
+   Author: abnegate
+   Created: 2025-07-21T07:14:30Z
+   URL: https://github.com/appwrite/appwrite/pull/10176
+
+60. TypeScript: created extra DocumentBase containing all default attributes of Documents
+   Author: bdblaere
+   Created: 2025-07-20T18:11:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10171
+
+61. fix: log against tables api
+   Author: ItzNotABug
+   Created: 2025-07-19T09:44:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10166
+
+62. Added tests for the sequence filter
+   Author: ArnabChatterjee20k
+   Created: 2025-07-18T05:27:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10159
+
+63. Deletes 1d 365 days
+   Author: fogelito
+   Created: 2025-07-14T13:16:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10146
+
+64. Fix: CI/CD flakyness
+   Author: Meldiron
+   Created: 2025-07-08T10:40:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10122
+
+65. Fix amqp
+   Author: abnegate
+   Created: 2025-07-04T23:26:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10106
+
+66. Only delete schedule document if execution is successful
+   Author: vermakhushboo
+   Created: 2025-07-04T06:54:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10102
+
+67. Ring loop dispatch
+   Author: abnegate
+   Created: 2025-07-04T00:31:46Z
+   URL: https://github.com/appwrite/appwrite/pull/10100
+
+68. Update to PHP 8.4.8, Swoole 6.0.2
+   Author: abnegate
+   Created: 2025-07-02T20:49:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10093
+
+69. feat: added clerk Oauth as provider and updated specs
+   Author: Nishantjain10
+   Created: 2025-06-28T14:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10074
+
+70. Responsible disclosure improvements
+   Author: EVDOG4LIFE
+   Created: 2025-06-25T23:45:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10058
+
+71. Feat graceful shutdown
+   Author: abnegate
+   Created: 2025-06-23T19:13:48Z
+   URL: https://github.com/appwrite/appwrite/pull/10045
+
+72. fix:  Users.CreateUser... vague error into optional name parameter.
+   Author: Abiji-2020
+   Created: 2025-06-20T17:12:49Z
+   URL: https://github.com/appwrite/appwrite/pull/10033
+
+73. [WIP] Add formspree, clerk and react-admin templates to sites
+   Author: vermakhushboo
+   Created: 2025-06-19T15:33:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10031
+
+74. Feat txn
+   Author: abnegate
+   Created: 2025-06-18T02:11:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10023
+
+75. Not: Edge differences
+   Author: Meldiron
+   Created: 2025-06-04T10:57:16Z
+   URL: https://github.com/appwrite/appwrite/pull/9968
+
+76. Ask users to have backups before installing the new version and fix cap letter.
+   Author: DH-555
+   Created: 2025-05-27T19:10:47Z
+   URL: https://github.com/appwrite/appwrite/pull/9917
+
+77. fix: update error message for site size limit
+   Author: Julien-prrs
+   Created: 2025-05-26T17:40:17Z
+   URL: https://github.com/appwrite/appwrite/pull/9905
+
+78. fix: Update es.json to resolve `{{name}}` bug
+   Author: alejndr0
+   Created: 2025-05-25T14:06:22Z
+   URL: https://github.com/appwrite/appwrite/pull/9889
+
+79. Feat kakao oauth
+   Author: BaekMinHyeok
+   Created: 2025-05-25T06:47:10Z
+   URL: https://github.com/appwrite/appwrite/pull/9887
+
+80. Ajout d'une astuce Git à la traduction française
+   Author: RyZenoKelb
+   Created: 2025-05-24T13:30:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9885
+
+81. Sairam
+   Author: Sairamtony
+   Created: 2025-05-22T05:52:39Z
+   URL: https://github.com/appwrite/appwrite/pull/9857
+
+82. Update README.md
+   Author: LauraDuRy
+   Created: 2025-05-20T06:01:20Z
+   URL: https://github.com/appwrite/appwrite/pull/9827
+
+83. Fix: Flutter env limits!
+   Author: ItzNotABug
+   Created: 2025-05-19T13:46:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9819
+
+84. Update CHANGELOG.md
+   Author: kamil-k7
+   Created: 2025-05-19T12:36:01Z
+   URL: https://github.com/appwrite/appwrite/pull/9817
+
+85. Move Console envs to Appwrite
+   Author: ItzNotABug
+   Created: 2025-05-19T10:38:07Z
+   URL: https://github.com/appwrite/appwrite/pull/9813
+
+86. Update Authentik.php
+   Author: darsh12
+   Created: 2025-05-18T19:55:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9803
+
+87. experiment: fastly mock proxy
+   Author: TorstenDittmann
+   Created: 2025-05-18T15:43:23Z
+   URL: https://github.com/appwrite/appwrite/pull/9799
+
+88. Use streaming to create runtimes with the executor
+   Author: TorstenDittmann
+   Created: 2025-05-17T19:52:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9785
+
+89. Pg adapter installation
+   Author: ArnabChatterjee20k
+   Created: 2025-05-16T08:42:45Z
+   URL: https://github.com/appwrite/appwrite/pull/9772
+
+90. Chore debug tests
+   Author: vermakhushboo
+   Created: 2025-05-06T19:24:55Z
+   URL: https://github.com/appwrite/appwrite/pull/9730
+
+91. fix: validate SMTP username and password during SMTP settings
+   Author: susubot
+   Created: 2025-05-01T10:44:53Z
+   URL: https://github.com/appwrite/appwrite/pull/9711
+
+92. Tls Cert failed msg override
+   Author: shimonewman
+   Created: 2025-04-28T14:55:02Z
+   URL: https://github.com/appwrite/appwrite/pull/9697
+
+93. Feat: Configurable sizes
+   Author: Meldiron
+   Created: 2025-04-24T13:43:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9686
+
+94. fix: validate SMTP credentials using SMTPAuth
+   Author: kateliuhyd
+   Created: 2025-04-19T05:59:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9668
+
+95. Feat: additional indexes
+   Author: lohanidamodar
+   Created: 2025-04-09T06:00:35Z
+   URL: https://github.com/appwrite/appwrite/pull/9629
+
+96. Split Docker Compose into multiple files for better organization
+   Author: TorstenDittmann
+   Created: 2025-04-08T00:13:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9621
+
+97. fix: improve error messages in auth controller
+   Author: gamzeozgul
+   Created: 2025-04-06T19:45:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9617
+
+98. Fix: Correct error handling for int values like documentId = 123
+   Author: urooj-vX
+   Created: 2025-04-04T20:56:11Z
+   URL: https://github.com/appwrite/appwrite/pull/9613
+
+99. Fix: vcs tests
+   Author: Meldiron
+   Created: 2025-04-03T07:53:18Z
+   URL: https://github.com/appwrite/appwrite/pull/9609
+
+100. Fix the build status badge in README files
+   Author: PeterDaveHello
+   Created: 2025-03-30T08:41:03Z
+   URL: https://github.com/appwrite/appwrite/pull/9595
+
+CSV file created at: test-results/pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch all pull requests (open and closed)" classname="test-case-4.spec.ts" time="0.08">
+<system-out>
+<![CDATA[Found 100 total pull requests
+Open PRs: 37
+Closed PRs: 63
+
+Sample open PRs:
+1. Fixed #10599 - fixed the X URL  (Lanthoiba2022)
+2. Sanitize 5xx errors on realtime (ItzNotABug)
+3. Update database (abnegate)
+
+Sample closed PRs:
+1. chore: update composer dependencies (ChiragAgg5k)
+2. Move disable (stnguyen90)
+3. chore: revert 1.6.x to 1.6.2 (stnguyen90)
+All PRs CSV file created at: test-results/all-pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should validate CSV format and content" classname="test-case-4.spec.ts" time="0.218">
+<system-out>
+<![CDATA[CSV Content:
+PR Name,Created Date,Author,URL
+"Fixed #10599 - fixed the X URL ","2025-10-04T18:27:29Z","Lanthoiba2022","https://github.com/appwrite/appwrite/pull/10600"
+"Sanitize 5xx errors on realtime","2025-10-04T13:09:25Z","ItzNotABug","https://github.com/appwrite/appwrite/pull/10598"
+"Update database","2025-10-03T12:38:31Z","abnegate","https://github.com/appwrite/appwrite/pull/10596"
+"Feat: update facts on GitHub sites and functions","2025-10-02T17:45:23Z","HarshMN2345","https://github.com/appwrite/appwrite/pull/10593"
+"fix(docs): update broken create table links in TablesDB docs","2025-10-02T14:40:44Z","Priyanshuthapliyal2005","https://github.com/appwrite/appwrite/pull/10592"
+CSV format validation passed
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should handle CSV export functionality with mock data" classname="test-case-4.spec.ts" time="0.002">
+<system-out>
+<![CDATA[Mock CSV file created at: ./test-results/mock-pull-requests.csv
+Mock data contains 2 pull requests
+CSV export functionality verified with mock data
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-1.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Chrome" tests="2" failures="0" skipped="0" time="1.892" errors="0">
+<testcase name="Test Case 1: Basic Website Test › should load the FashionHub website successfully" classname="test-case-1.spec.ts" time="0.952">
+<system-out>
+<![CDATA[Page title: Home - FashionHub
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 1: Basic Website Test › should have working navigation" classname="test-case-1.spec.ts" time="0.94">
+<system-out>
+<![CDATA[Navigation elements found and visible
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-2.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Chrome" tests="2" failures="0" skipped="0" time="1.983" errors="0">
+<testcase name="Test Case 2: Link Status Code Validation › should verify all links return 200 or 30x status codes" classname="test-case-2.spec.ts" time="1.243">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+
+Link Check Summary:
+Total links: 6
+Successful links: 6
+Failed links: 0
+Success rate: 100.00%
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2: Link Status Code Validation › should verify specific page links work correctly" classname="test-case-2.spec.ts" time="0.74">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-3.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Chrome" tests="3" failures="0" skipped="0" time="6.046" errors="0">
+<testcase name="Test Case 3: Login Functionality Verification › should successfully log in with valid credentials" classname="test-case-3.spec.ts" time="2.637">
+<system-out>
+<![CDATA[Using credentials - Username: demouser
+Current URL after login: https://pocketaces2.github.io/fashionhub/account.html
+Found success indicator: Welcome
+URL changed after login, indicating successful authentication
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should handle invalid credentials appropriately" classname="test-case-3.spec.ts" time="2.521">
+<system-out>
+<![CDATA[Found error indicator: Invalid
+Still on login page: true
+Error message found: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should verify login form elements are present" classname="test-case-3.spec.ts" time="0.888">
+</testcase>
+</testsuite>
+<testsuite name="test-case-4.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Chrome" tests="4" failures="0" skipped="0" time="0.745" errors="0">
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch and export open pull requests to CSV" classname="test-case-4.spec.ts" time="0.349">
+<system-out>
+<![CDATA[Found 100 open pull requests
+1. Fixed #10599 - fixed the X URL 
+   Author: Lanthoiba2022
+   Created: 2025-10-04T18:27:29Z
+   URL: https://github.com/appwrite/appwrite/pull/10600
+
+2. Sanitize 5xx errors on realtime
+   Author: ItzNotABug
+   Created: 2025-10-04T13:09:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10598
+
+3. Update database
+   Author: abnegate
+   Created: 2025-10-03T12:38:31Z
+   URL: https://github.com/appwrite/appwrite/pull/10596
+
+4. Feat: update facts on GitHub sites and functions
+   Author: HarshMN2345
+   Created: 2025-10-02T17:45:23Z
+   URL: https://github.com/appwrite/appwrite/pull/10593
+
+5. fix(docs): update broken create table links in TablesDB docs
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-02T14:40:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10592
+
+6. Prepare 1.8.0-RC3 release
+   Author: stnguyen90
+   Created: 2025-10-02T01:05:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10587
+
+7. fix(sites): make queries parameter an array of strings for site list endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T12:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10584
+
+8. fix(listTemplates): correct invalid template links in Create temporary deployment endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T09:10:01Z
+   URL: https://github.com/appwrite/appwrite/pull/10581
+
+9. [draft] init payments
+   Author: atharvadeosthale
+   Created: 2025-09-30T18:14:54Z
+   URL: https://github.com/appwrite/appwrite/pull/10573
+
+10. fix: Appwrite URL typo
+   Author: amustaque97
+   Created: 2025-09-30T12:13:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10570
+
+11. Add Contributor Covenant Code of Conduct
+   Author: srihari-976
+   Created: 2025-09-30T10:06:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10568
+
+12. Add CODE_OF_CONDUCT.md to the repository
+   Author: srihari-976
+   Created: 2025-09-30T09:50:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10567
+
+13. fix: sites deployment activation instructions in createDeployment
+   Author: Priyanshuthapliyal2005
+   Created: 2025-09-30T09:14:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10566
+
+14. feat: enable task stats resources run once
+   Author: loks0n
+   Created: 2025-09-29T14:14:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10564
+
+15. Update migration for SDK update
+   Author: abnegate
+   Created: 2025-09-29T02:35:50Z
+   URL: https://github.com/appwrite/appwrite/pull/10560
+
+16. feat: add user verification enforcement for Console project
+   Author: HarshMN2345
+   Created: 2025-09-28T10:50:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10558
+
+17. doc: add note create new branches from the correct source branch
+   Author: amustaque97
+   Created: 2025-09-27T17:41:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10557
+
+18. fix(auth): validate old password before allowing password change
+   Author: ArjunSaluja
+   Created: 2025-09-26T17:36:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10556
+
+19. fix external VCS deployment flow
+   Author: hmacr
+   Created: 2025-09-26T14:19:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10555
+
+20. chore: update sdks add response models
+   Author: ChiragAgg5k
+   Created: 2025-09-26T10:03:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10554
+
+21. fix: Send deployment ready event after updating associated resource
+   Author: hmacr
+   Created: 2025-09-24T13:22:27Z
+   URL: https://github.com/appwrite/appwrite/pull/10547
+
+22. Feat csv export
+   Author: abnegate
+   Created: 2025-09-24T10:40:45Z
+   URL: https://github.com/appwrite/appwrite/pull/10546
+
+23. Fix Author URL in template deployments
+   Author: vermakhushboo
+   Created: 2025-09-22T15:00:22Z
+   URL: https://github.com/appwrite/appwrite/pull/10535
+
+24. Throw error when email is not available for account verification
+   Author: hmacr
+   Created: 2025-09-22T08:57:24Z
+   URL: https://github.com/appwrite/appwrite/pull/10533
+
+25. Fix SMTP username and password validation
+   Author: tysoncung
+   Created: 2025-09-22T01:50:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10532
+
+26. Change password with old password
+   Author: alxn787
+   Created: 2025-09-21T21:50:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10531
+
+27. Add LogRocket logging adapter for Appwrite
+   Author: alanjollyc
+   Created: 2025-09-21T15:42:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10530
+
+28. Removed templates-runtime and migrated the array contents to runtime
+   Author: Chad-007
+   Created: 2025-09-21T10:42:53Z
+   URL: https://github.com/appwrite/appwrite/pull/10526
+
+29. Replaced magic indexing for proper readability
+   Author: Chad-007
+   Created: 2025-09-20T16:39:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10524
+
+30. documentsdb api
+   Author: ArnabChatterjee20k
+   Created: 2025-09-19T14:16:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10518
+
+31. Document Error
+   Author: TarunCherukuri
+   Created: 2025-09-18T06:45:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10512
+
+32. Branded email for Console auth flows
+   Author: hmacr
+   Created: 2025-09-15T20:11:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10501
+
+33. Fix hardcoded specification defaults to use dynamic plan-based logic
+   Author: Copilot
+   Created: 2025-09-15T19:11:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10500
+
+34. Add branch-only deployments to Sites without ref tags
+   Author: atharvadeosthale
+   Created: 2025-09-13T12:28:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10486
+
+35. Improve: UX of dns flows
+   Author: Meldiron
+   Created: 2025-09-11T10:37:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10478
+
+36. Feat apps module dl
+   Author: lohanidamodar
+   Created: 2025-09-10T04:03:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10468
+
+37. Auth email redesign
+   Author: hmacr
+   Created: 2025-09-08T08:47:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10458
+
+38. Add database scheme config
+   Author: dawnmie
+   Created: 2025-09-08T05:48:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10456
+
+39. Add GitHub workflow to automatically add PRs targeting 1.8.x branch to project 15
+   Author: Copilot
+   Created: 2025-09-02T23:56:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10423
+
+40. updated migration error attribute size
+   Author: ArnabChatterjee20k
+   Created: 2025-08-29T12:50:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10407
+
+41. Prepare 1.8.0 release
+   Author: stnguyen90
+   Created: 2025-08-28T21:05:13Z
+   URL: https://github.com/appwrite/appwrite/pull/10404
+
+42. Var ID attribute
+   Author: fogelito
+   Created: 2025-08-28T11:18:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10399
+
+43. Feat Swoole v6
+   Author: abnegate
+   Created: 2025-08-26T05:28:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10371
+
+44. Fix: CLI Types Generation in Monorepo Setups
+   Author: hemanthvallapani
+   Created: 2025-08-25T15:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10368
+
+45. Add disposable email blocklist and update email validation
+   Author: satputekuldip
+   Created: 2025-08-23T21:54:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10361
+
+46. Enhance OAuth2 session handling and add React Router v7
+   Author: krishvsoni
+   Created: 2025-08-21T17:34:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10355
+
+47. docs: update the directory structure in CONTRIBUTING.md
+   Author: tejas-raskar
+   Created: 2025-08-20T09:06:38Z
+   URL: https://github.com/appwrite/appwrite/pull/10342
+
+48. Feat: AI locale translations
+   Author: Meldiron
+   Created: 2025-08-14T14:05:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10322
+
+49. Fix 810 return type for download deployment is wrong
+   Author: MicahHeneveld
+   Created: 2025-08-07T23:43:06Z
+   URL: https://github.com/appwrite/appwrite/pull/10277
+
+50. Get sequence null default
+   Author: fogelito
+   Created: 2025-08-06T06:34:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10270
+
+51. Fix JWT authentication to validate session expiration
+   Author: Copilot
+   Created: 2025-08-06T03:13:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10269
+
+52. Prepare 1.7.5 release
+   Author: stnguyen90
+   Created: 2025-08-01T23:39:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10252
+
+53. Fix: Convert Docker build args from boolean to string values
+   Author: imkuldeepahlawat
+   Created: 2025-07-31T06:45:35Z
+   URL: https://github.com/appwrite/appwrite/pull/10238
+
+54. Update MongoDB
+   Author: shimonewman
+   Created: 2025-07-28T08:13:56Z
+   URL: https://github.com/appwrite/appwrite/pull/10215
+
+55. Remove obsolete doc for flutter
+   Author: Sahil4883
+   Created: 2025-07-26T16:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10211
+
+56. fix: update hardcoded year 2024 to 2025 in tests and popup
+   Author: ZunedKhan07
+   Created: 2025-07-26T09:02:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10210
+
+57. Add execution delay headers to async, event-triggered and sync executions
+   Author: vermakhushboo
+   Created: 2025-07-23T07:21:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10191
+
+58. added temporary blocking the delete of null metadata docs
+   Author: ArnabChatterjee20k
+   Created: 2025-07-21T10:52:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10178
+
+59. 1.8.x
+   Author: abnegate
+   Created: 2025-07-21T07:14:30Z
+   URL: https://github.com/appwrite/appwrite/pull/10176
+
+60. TypeScript: created extra DocumentBase containing all default attributes of Documents
+   Author: bdblaere
+   Created: 2025-07-20T18:11:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10171
+
+61. fix: log against tables api
+   Author: ItzNotABug
+   Created: 2025-07-19T09:44:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10166
+
+62. Added tests for the sequence filter
+   Author: ArnabChatterjee20k
+   Created: 2025-07-18T05:27:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10159
+
+63. Deletes 1d 365 days
+   Author: fogelito
+   Created: 2025-07-14T13:16:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10146
+
+64. Fix: CI/CD flakyness
+   Author: Meldiron
+   Created: 2025-07-08T10:40:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10122
+
+65. Fix amqp
+   Author: abnegate
+   Created: 2025-07-04T23:26:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10106
+
+66. Only delete schedule document if execution is successful
+   Author: vermakhushboo
+   Created: 2025-07-04T06:54:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10102
+
+67. Ring loop dispatch
+   Author: abnegate
+   Created: 2025-07-04T00:31:46Z
+   URL: https://github.com/appwrite/appwrite/pull/10100
+
+68. Update to PHP 8.4.8, Swoole 6.0.2
+   Author: abnegate
+   Created: 2025-07-02T20:49:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10093
+
+69. feat: added clerk Oauth as provider and updated specs
+   Author: Nishantjain10
+   Created: 2025-06-28T14:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10074
+
+70. Responsible disclosure improvements
+   Author: EVDOG4LIFE
+   Created: 2025-06-25T23:45:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10058
+
+71. Feat graceful shutdown
+   Author: abnegate
+   Created: 2025-06-23T19:13:48Z
+   URL: https://github.com/appwrite/appwrite/pull/10045
+
+72. fix:  Users.CreateUser... vague error into optional name parameter.
+   Author: Abiji-2020
+   Created: 2025-06-20T17:12:49Z
+   URL: https://github.com/appwrite/appwrite/pull/10033
+
+73. [WIP] Add formspree, clerk and react-admin templates to sites
+   Author: vermakhushboo
+   Created: 2025-06-19T15:33:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10031
+
+74. Feat txn
+   Author: abnegate
+   Created: 2025-06-18T02:11:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10023
+
+75. Not: Edge differences
+   Author: Meldiron
+   Created: 2025-06-04T10:57:16Z
+   URL: https://github.com/appwrite/appwrite/pull/9968
+
+76. Ask users to have backups before installing the new version and fix cap letter.
+   Author: DH-555
+   Created: 2025-05-27T19:10:47Z
+   URL: https://github.com/appwrite/appwrite/pull/9917
+
+77. fix: update error message for site size limit
+   Author: Julien-prrs
+   Created: 2025-05-26T17:40:17Z
+   URL: https://github.com/appwrite/appwrite/pull/9905
+
+78. fix: Update es.json to resolve `{{name}}` bug
+   Author: alejndr0
+   Created: 2025-05-25T14:06:22Z
+   URL: https://github.com/appwrite/appwrite/pull/9889
+
+79. Feat kakao oauth
+   Author: BaekMinHyeok
+   Created: 2025-05-25T06:47:10Z
+   URL: https://github.com/appwrite/appwrite/pull/9887
+
+80. Ajout d'une astuce Git à la traduction française
+   Author: RyZenoKelb
+   Created: 2025-05-24T13:30:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9885
+
+81. Sairam
+   Author: Sairamtony
+   Created: 2025-05-22T05:52:39Z
+   URL: https://github.com/appwrite/appwrite/pull/9857
+
+82. Update README.md
+   Author: LauraDuRy
+   Created: 2025-05-20T06:01:20Z
+   URL: https://github.com/appwrite/appwrite/pull/9827
+
+83. Fix: Flutter env limits!
+   Author: ItzNotABug
+   Created: 2025-05-19T13:46:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9819
+
+84. Update CHANGELOG.md
+   Author: kamil-k7
+   Created: 2025-05-19T12:36:01Z
+   URL: https://github.com/appwrite/appwrite/pull/9817
+
+85. Move Console envs to Appwrite
+   Author: ItzNotABug
+   Created: 2025-05-19T10:38:07Z
+   URL: https://github.com/appwrite/appwrite/pull/9813
+
+86. Update Authentik.php
+   Author: darsh12
+   Created: 2025-05-18T19:55:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9803
+
+87. experiment: fastly mock proxy
+   Author: TorstenDittmann
+   Created: 2025-05-18T15:43:23Z
+   URL: https://github.com/appwrite/appwrite/pull/9799
+
+88. Use streaming to create runtimes with the executor
+   Author: TorstenDittmann
+   Created: 2025-05-17T19:52:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9785
+
+89. Pg adapter installation
+   Author: ArnabChatterjee20k
+   Created: 2025-05-16T08:42:45Z
+   URL: https://github.com/appwrite/appwrite/pull/9772
+
+90. Chore debug tests
+   Author: vermakhushboo
+   Created: 2025-05-06T19:24:55Z
+   URL: https://github.com/appwrite/appwrite/pull/9730
+
+91. fix: validate SMTP username and password during SMTP settings
+   Author: susubot
+   Created: 2025-05-01T10:44:53Z
+   URL: https://github.com/appwrite/appwrite/pull/9711
+
+92. Tls Cert failed msg override
+   Author: shimonewman
+   Created: 2025-04-28T14:55:02Z
+   URL: https://github.com/appwrite/appwrite/pull/9697
+
+93. Feat: Configurable sizes
+   Author: Meldiron
+   Created: 2025-04-24T13:43:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9686
+
+94. fix: validate SMTP credentials using SMTPAuth
+   Author: kateliuhyd
+   Created: 2025-04-19T05:59:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9668
+
+95. Feat: additional indexes
+   Author: lohanidamodar
+   Created: 2025-04-09T06:00:35Z
+   URL: https://github.com/appwrite/appwrite/pull/9629
+
+96. Split Docker Compose into multiple files for better organization
+   Author: TorstenDittmann
+   Created: 2025-04-08T00:13:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9621
+
+97. fix: improve error messages in auth controller
+   Author: gamzeozgul
+   Created: 2025-04-06T19:45:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9617
+
+98. Fix: Correct error handling for int values like documentId = 123
+   Author: urooj-vX
+   Created: 2025-04-04T20:56:11Z
+   URL: https://github.com/appwrite/appwrite/pull/9613
+
+99. Fix: vcs tests
+   Author: Meldiron
+   Created: 2025-04-03T07:53:18Z
+   URL: https://github.com/appwrite/appwrite/pull/9609
+
+100. Fix the build status badge in README files
+   Author: PeterDaveHello
+   Created: 2025-03-30T08:41:03Z
+   URL: https://github.com/appwrite/appwrite/pull/9595
+
+CSV file created at: test-results/pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch all pull requests (open and closed)" classname="test-case-4.spec.ts" time="0.142">
+<system-out>
+<![CDATA[Found 100 total pull requests
+Open PRs: 37
+Closed PRs: 63
+
+Sample open PRs:
+1. Fixed #10599 - fixed the X URL  (Lanthoiba2022)
+2. Sanitize 5xx errors on realtime (ItzNotABug)
+3. Update database (abnegate)
+
+Sample closed PRs:
+1. chore: update composer dependencies (ChiragAgg5k)
+2. Move disable (stnguyen90)
+3. chore: revert 1.6.x to 1.6.2 (stnguyen90)
+All PRs CSV file created at: test-results/all-pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should validate CSV format and content" classname="test-case-4.spec.ts" time="0.247">
+<system-out>
+<![CDATA[CSV Content:
+PR Name,Created Date,Author,URL
+"Fixed #10599 - fixed the X URL ","2025-10-04T18:27:29Z","Lanthoiba2022","https://github.com/appwrite/appwrite/pull/10600"
+"Sanitize 5xx errors on realtime","2025-10-04T13:09:25Z","ItzNotABug","https://github.com/appwrite/appwrite/pull/10598"
+"Update database","2025-10-03T12:38:31Z","abnegate","https://github.com/appwrite/appwrite/pull/10596"
+"Feat: update facts on GitHub sites and functions","2025-10-02T17:45:23Z","HarshMN2345","https://github.com/appwrite/appwrite/pull/10593"
+"fix(docs): update broken create table links in TablesDB docs","2025-10-02T14:40:44Z","Priyanshuthapliyal2005","https://github.com/appwrite/appwrite/pull/10592"
+CSV format validation passed
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should handle CSV export functionality with mock data" classname="test-case-4.spec.ts" time="0.007">
+<system-out>
+<![CDATA[Mock CSV file created at: ./test-results/mock-pull-requests.csv
+Mock data contains 2 pull requests
+CSV export functionality verified with mock data
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-1.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Safari" tests="2" failures="0" skipped="0" time="3.026" errors="0">
+<testcase name="Test Case 1: Basic Website Test › should load the FashionHub website successfully" classname="test-case-1.spec.ts" time="1.491">
+<system-out>
+<![CDATA[Page title: Home - FashionHub
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 1: Basic Website Test › should have working navigation" classname="test-case-1.spec.ts" time="1.535">
+<system-out>
+<![CDATA[Navigation elements found and visible
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-2.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Safari" tests="2" failures="0" skipped="0" time="3.122" errors="0">
+<testcase name="Test Case 2: Link Status Code Validation › should verify all links return 200 or 30x status codes" classname="test-case-2.spec.ts" time="1.857">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - Status: 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - Status: 200
+
+Link Check Summary:
+Total links: 6
+Successful links: 6
+Failed links: 0
+Success rate: 100.00%
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2: Link Status Code Validation › should verify specific page links work correctly" classname="test-case-2.spec.ts" time="1.265">
+<system-out>
+<![CDATA[Found 6 links to check
+✓ https://pocketaces2.github.io/fashionhub/ - 200
+✓ https://pocketaces2.github.io/fashionhub/account.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+✓ https://pocketaces2.github.io/fashionhub/cart.html - 200
+✓ https://pocketaces2.github.io/fashionhub/about.html - 200
+✓ https://pocketaces2.github.io/fashionhub/products.html - 200
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-case-3.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Safari" tests="3" failures="0" skipped="0" time="5.956" errors="0">
+<testcase name="Test Case 3: Login Functionality Verification › should successfully log in with valid credentials" classname="test-case-3.spec.ts" time="2.616">
+<system-out>
+<![CDATA[Using credentials - Username: demouser
+Current URL after login: https://pocketaces2.github.io/fashionhub/account.html
+Found success indicator: Welcome
+URL changed after login, indicating successful authentication
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should handle invalid credentials appropriately" classname="test-case-3.spec.ts" time="2.464">
+<system-out>
+<![CDATA[Found error indicator: Invalid
+Still on login page: true
+Error message found: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3: Login Functionality Verification › should verify login form elements are present" classname="test-case-3.spec.ts" time="0.876">
+</testcase>
+</testsuite>
+<testsuite name="test-case-4.spec.ts" timestamp="2025-10-05T14:12:28.176Z" hostname="Mobile Safari" tests="4" failures="0" skipped="0" time="0.518" errors="0">
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch and export open pull requests to CSV" classname="test-case-4.spec.ts" time="0.353">
+<system-out>
+<![CDATA[Found 100 open pull requests
+1. Fixed #10599 - fixed the X URL 
+   Author: Lanthoiba2022
+   Created: 2025-10-04T18:27:29Z
+   URL: https://github.com/appwrite/appwrite/pull/10600
+
+2. Sanitize 5xx errors on realtime
+   Author: ItzNotABug
+   Created: 2025-10-04T13:09:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10598
+
+3. Update database
+   Author: abnegate
+   Created: 2025-10-03T12:38:31Z
+   URL: https://github.com/appwrite/appwrite/pull/10596
+
+4. Feat: update facts on GitHub sites and functions
+   Author: HarshMN2345
+   Created: 2025-10-02T17:45:23Z
+   URL: https://github.com/appwrite/appwrite/pull/10593
+
+5. fix(docs): update broken create table links in TablesDB docs
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-02T14:40:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10592
+
+6. Prepare 1.8.0-RC3 release
+   Author: stnguyen90
+   Created: 2025-10-02T01:05:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10587
+
+7. fix(sites): make queries parameter an array of strings for site list endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T12:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10584
+
+8. fix(listTemplates): correct invalid template links in Create temporary deployment endpoint
+   Author: Priyanshuthapliyal2005
+   Created: 2025-10-01T09:10:01Z
+   URL: https://github.com/appwrite/appwrite/pull/10581
+
+9. [draft] init payments
+   Author: atharvadeosthale
+   Created: 2025-09-30T18:14:54Z
+   URL: https://github.com/appwrite/appwrite/pull/10573
+
+10. fix: Appwrite URL typo
+   Author: amustaque97
+   Created: 2025-09-30T12:13:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10570
+
+11. Add Contributor Covenant Code of Conduct
+   Author: srihari-976
+   Created: 2025-09-30T10:06:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10568
+
+12. Add CODE_OF_CONDUCT.md to the repository
+   Author: srihari-976
+   Created: 2025-09-30T09:50:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10567
+
+13. fix: sites deployment activation instructions in createDeployment
+   Author: Priyanshuthapliyal2005
+   Created: 2025-09-30T09:14:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10566
+
+14. feat: enable task stats resources run once
+   Author: loks0n
+   Created: 2025-09-29T14:14:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10564
+
+15. Update migration for SDK update
+   Author: abnegate
+   Created: 2025-09-29T02:35:50Z
+   URL: https://github.com/appwrite/appwrite/pull/10560
+
+16. feat: add user verification enforcement for Console project
+   Author: HarshMN2345
+   Created: 2025-09-28T10:50:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10558
+
+17. doc: add note create new branches from the correct source branch
+   Author: amustaque97
+   Created: 2025-09-27T17:41:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10557
+
+18. fix(auth): validate old password before allowing password change
+   Author: ArjunSaluja
+   Created: 2025-09-26T17:36:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10556
+
+19. fix external VCS deployment flow
+   Author: hmacr
+   Created: 2025-09-26T14:19:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10555
+
+20. chore: update sdks add response models
+   Author: ChiragAgg5k
+   Created: 2025-09-26T10:03:51Z
+   URL: https://github.com/appwrite/appwrite/pull/10554
+
+21. fix: Send deployment ready event after updating associated resource
+   Author: hmacr
+   Created: 2025-09-24T13:22:27Z
+   URL: https://github.com/appwrite/appwrite/pull/10547
+
+22. Feat csv export
+   Author: abnegate
+   Created: 2025-09-24T10:40:45Z
+   URL: https://github.com/appwrite/appwrite/pull/10546
+
+23. Fix Author URL in template deployments
+   Author: vermakhushboo
+   Created: 2025-09-22T15:00:22Z
+   URL: https://github.com/appwrite/appwrite/pull/10535
+
+24. Throw error when email is not available for account verification
+   Author: hmacr
+   Created: 2025-09-22T08:57:24Z
+   URL: https://github.com/appwrite/appwrite/pull/10533
+
+25. Fix SMTP username and password validation
+   Author: tysoncung
+   Created: 2025-09-22T01:50:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10532
+
+26. Change password with old password
+   Author: alxn787
+   Created: 2025-09-21T21:50:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10531
+
+27. Add LogRocket logging adapter for Appwrite
+   Author: alanjollyc
+   Created: 2025-09-21T15:42:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10530
+
+28. Removed templates-runtime and migrated the array contents to runtime
+   Author: Chad-007
+   Created: 2025-09-21T10:42:53Z
+   URL: https://github.com/appwrite/appwrite/pull/10526
+
+29. Replaced magic indexing for proper readability
+   Author: Chad-007
+   Created: 2025-09-20T16:39:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10524
+
+30. documentsdb api
+   Author: ArnabChatterjee20k
+   Created: 2025-09-19T14:16:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10518
+
+31. Document Error
+   Author: TarunCherukuri
+   Created: 2025-09-18T06:45:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10512
+
+32. Branded email for Console auth flows
+   Author: hmacr
+   Created: 2025-09-15T20:11:25Z
+   URL: https://github.com/appwrite/appwrite/pull/10501
+
+33. Fix hardcoded specification defaults to use dynamic plan-based logic
+   Author: Copilot
+   Created: 2025-09-15T19:11:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10500
+
+34. Add branch-only deployments to Sites without ref tags
+   Author: atharvadeosthale
+   Created: 2025-09-13T12:28:18Z
+   URL: https://github.com/appwrite/appwrite/pull/10486
+
+35. Improve: UX of dns flows
+   Author: Meldiron
+   Created: 2025-09-11T10:37:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10478
+
+36. Feat apps module dl
+   Author: lohanidamodar
+   Created: 2025-09-10T04:03:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10468
+
+37. Auth email redesign
+   Author: hmacr
+   Created: 2025-09-08T08:47:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10458
+
+38. Add database scheme config
+   Author: dawnmie
+   Created: 2025-09-08T05:48:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10456
+
+39. Add GitHub workflow to automatically add PRs targeting 1.8.x branch to project 15
+   Author: Copilot
+   Created: 2025-09-02T23:56:42Z
+   URL: https://github.com/appwrite/appwrite/pull/10423
+
+40. updated migration error attribute size
+   Author: ArnabChatterjee20k
+   Created: 2025-08-29T12:50:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10407
+
+41. Prepare 1.8.0 release
+   Author: stnguyen90
+   Created: 2025-08-28T21:05:13Z
+   URL: https://github.com/appwrite/appwrite/pull/10404
+
+42. Var ID attribute
+   Author: fogelito
+   Created: 2025-08-28T11:18:07Z
+   URL: https://github.com/appwrite/appwrite/pull/10399
+
+43. Feat Swoole v6
+   Author: abnegate
+   Created: 2025-08-26T05:28:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10371
+
+44. Fix: CLI Types Generation in Monorepo Setups
+   Author: hemanthvallapani
+   Created: 2025-08-25T15:25:32Z
+   URL: https://github.com/appwrite/appwrite/pull/10368
+
+45. Add disposable email blocklist and update email validation
+   Author: satputekuldip
+   Created: 2025-08-23T21:54:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10361
+
+46. Enhance OAuth2 session handling and add React Router v7
+   Author: krishvsoni
+   Created: 2025-08-21T17:34:15Z
+   URL: https://github.com/appwrite/appwrite/pull/10355
+
+47. docs: update the directory structure in CONTRIBUTING.md
+   Author: tejas-raskar
+   Created: 2025-08-20T09:06:38Z
+   URL: https://github.com/appwrite/appwrite/pull/10342
+
+48. Feat: AI locale translations
+   Author: Meldiron
+   Created: 2025-08-14T14:05:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10322
+
+49. Fix 810 return type for download deployment is wrong
+   Author: MicahHeneveld
+   Created: 2025-08-07T23:43:06Z
+   URL: https://github.com/appwrite/appwrite/pull/10277
+
+50. Get sequence null default
+   Author: fogelito
+   Created: 2025-08-06T06:34:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10270
+
+51. Fix JWT authentication to validate session expiration
+   Author: Copilot
+   Created: 2025-08-06T03:13:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10269
+
+52. Prepare 1.7.5 release
+   Author: stnguyen90
+   Created: 2025-08-01T23:39:04Z
+   URL: https://github.com/appwrite/appwrite/pull/10252
+
+53. Fix: Convert Docker build args from boolean to string values
+   Author: imkuldeepahlawat
+   Created: 2025-07-31T06:45:35Z
+   URL: https://github.com/appwrite/appwrite/pull/10238
+
+54. Update MongoDB
+   Author: shimonewman
+   Created: 2025-07-28T08:13:56Z
+   URL: https://github.com/appwrite/appwrite/pull/10215
+
+55. Remove obsolete doc for flutter
+   Author: Sahil4883
+   Created: 2025-07-26T16:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10211
+
+56. fix: update hardcoded year 2024 to 2025 in tests and popup
+   Author: ZunedKhan07
+   Created: 2025-07-26T09:02:19Z
+   URL: https://github.com/appwrite/appwrite/pull/10210
+
+57. Add execution delay headers to async, event-triggered and sync executions
+   Author: vermakhushboo
+   Created: 2025-07-23T07:21:14Z
+   URL: https://github.com/appwrite/appwrite/pull/10191
+
+58. added temporary blocking the delete of null metadata docs
+   Author: ArnabChatterjee20k
+   Created: 2025-07-21T10:52:55Z
+   URL: https://github.com/appwrite/appwrite/pull/10178
+
+59. 1.8.x
+   Author: abnegate
+   Created: 2025-07-21T07:14:30Z
+   URL: https://github.com/appwrite/appwrite/pull/10176
+
+60. TypeScript: created extra DocumentBase containing all default attributes of Documents
+   Author: bdblaere
+   Created: 2025-07-20T18:11:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10171
+
+61. fix: log against tables api
+   Author: ItzNotABug
+   Created: 2025-07-19T09:44:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10166
+
+62. Added tests for the sequence filter
+   Author: ArnabChatterjee20k
+   Created: 2025-07-18T05:27:44Z
+   URL: https://github.com/appwrite/appwrite/pull/10159
+
+63. Deletes 1d 365 days
+   Author: fogelito
+   Created: 2025-07-14T13:16:36Z
+   URL: https://github.com/appwrite/appwrite/pull/10146
+
+64. Fix: CI/CD flakyness
+   Author: Meldiron
+   Created: 2025-07-08T10:40:39Z
+   URL: https://github.com/appwrite/appwrite/pull/10122
+
+65. Fix amqp
+   Author: abnegate
+   Created: 2025-07-04T23:26:58Z
+   URL: https://github.com/appwrite/appwrite/pull/10106
+
+66. Only delete schedule document if execution is successful
+   Author: vermakhushboo
+   Created: 2025-07-04T06:54:34Z
+   URL: https://github.com/appwrite/appwrite/pull/10102
+
+67. Ring loop dispatch
+   Author: abnegate
+   Created: 2025-07-04T00:31:46Z
+   URL: https://github.com/appwrite/appwrite/pull/10100
+
+68. Update to PHP 8.4.8, Swoole 6.0.2
+   Author: abnegate
+   Created: 2025-07-02T20:49:57Z
+   URL: https://github.com/appwrite/appwrite/pull/10093
+
+69. feat: added clerk Oauth as provider and updated specs
+   Author: Nishantjain10
+   Created: 2025-06-28T14:22:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10074
+
+70. Responsible disclosure improvements
+   Author: EVDOG4LIFE
+   Created: 2025-06-25T23:45:40Z
+   URL: https://github.com/appwrite/appwrite/pull/10058
+
+71. Feat graceful shutdown
+   Author: abnegate
+   Created: 2025-06-23T19:13:48Z
+   URL: https://github.com/appwrite/appwrite/pull/10045
+
+72. fix:  Users.CreateUser... vague error into optional name parameter.
+   Author: Abiji-2020
+   Created: 2025-06-20T17:12:49Z
+   URL: https://github.com/appwrite/appwrite/pull/10033
+
+73. [WIP] Add formspree, clerk and react-admin templates to sites
+   Author: vermakhushboo
+   Created: 2025-06-19T15:33:21Z
+   URL: https://github.com/appwrite/appwrite/pull/10031
+
+74. Feat txn
+   Author: abnegate
+   Created: 2025-06-18T02:11:05Z
+   URL: https://github.com/appwrite/appwrite/pull/10023
+
+75. Not: Edge differences
+   Author: Meldiron
+   Created: 2025-06-04T10:57:16Z
+   URL: https://github.com/appwrite/appwrite/pull/9968
+
+76. Ask users to have backups before installing the new version and fix cap letter.
+   Author: DH-555
+   Created: 2025-05-27T19:10:47Z
+   URL: https://github.com/appwrite/appwrite/pull/9917
+
+77. fix: update error message for site size limit
+   Author: Julien-prrs
+   Created: 2025-05-26T17:40:17Z
+   URL: https://github.com/appwrite/appwrite/pull/9905
+
+78. fix: Update es.json to resolve `{{name}}` bug
+   Author: alejndr0
+   Created: 2025-05-25T14:06:22Z
+   URL: https://github.com/appwrite/appwrite/pull/9889
+
+79. Feat kakao oauth
+   Author: BaekMinHyeok
+   Created: 2025-05-25T06:47:10Z
+   URL: https://github.com/appwrite/appwrite/pull/9887
+
+80. Ajout d'une astuce Git à la traduction française
+   Author: RyZenoKelb
+   Created: 2025-05-24T13:30:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9885
+
+81. Sairam
+   Author: Sairamtony
+   Created: 2025-05-22T05:52:39Z
+   URL: https://github.com/appwrite/appwrite/pull/9857
+
+82. Update README.md
+   Author: LauraDuRy
+   Created: 2025-05-20T06:01:20Z
+   URL: https://github.com/appwrite/appwrite/pull/9827
+
+83. Fix: Flutter env limits!
+   Author: ItzNotABug
+   Created: 2025-05-19T13:46:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9819
+
+84. Update CHANGELOG.md
+   Author: kamil-k7
+   Created: 2025-05-19T12:36:01Z
+   URL: https://github.com/appwrite/appwrite/pull/9817
+
+85. Move Console envs to Appwrite
+   Author: ItzNotABug
+   Created: 2025-05-19T10:38:07Z
+   URL: https://github.com/appwrite/appwrite/pull/9813
+
+86. Update Authentik.php
+   Author: darsh12
+   Created: 2025-05-18T19:55:44Z
+   URL: https://github.com/appwrite/appwrite/pull/9803
+
+87. experiment: fastly mock proxy
+   Author: TorstenDittmann
+   Created: 2025-05-18T15:43:23Z
+   URL: https://github.com/appwrite/appwrite/pull/9799
+
+88. Use streaming to create runtimes with the executor
+   Author: TorstenDittmann
+   Created: 2025-05-17T19:52:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9785
+
+89. Pg adapter installation
+   Author: ArnabChatterjee20k
+   Created: 2025-05-16T08:42:45Z
+   URL: https://github.com/appwrite/appwrite/pull/9772
+
+90. Chore debug tests
+   Author: vermakhushboo
+   Created: 2025-05-06T19:24:55Z
+   URL: https://github.com/appwrite/appwrite/pull/9730
+
+91. fix: validate SMTP username and password during SMTP settings
+   Author: susubot
+   Created: 2025-05-01T10:44:53Z
+   URL: https://github.com/appwrite/appwrite/pull/9711
+
+92. Tls Cert failed msg override
+   Author: shimonewman
+   Created: 2025-04-28T14:55:02Z
+   URL: https://github.com/appwrite/appwrite/pull/9697
+
+93. Feat: Configurable sizes
+   Author: Meldiron
+   Created: 2025-04-24T13:43:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9686
+
+94. fix: validate SMTP credentials using SMTPAuth
+   Author: kateliuhyd
+   Created: 2025-04-19T05:59:59Z
+   URL: https://github.com/appwrite/appwrite/pull/9668
+
+95. Feat: additional indexes
+   Author: lohanidamodar
+   Created: 2025-04-09T06:00:35Z
+   URL: https://github.com/appwrite/appwrite/pull/9629
+
+96. Split Docker Compose into multiple files for better organization
+   Author: TorstenDittmann
+   Created: 2025-04-08T00:13:41Z
+   URL: https://github.com/appwrite/appwrite/pull/9621
+
+97. fix: improve error messages in auth controller
+   Author: gamzeozgul
+   Created: 2025-04-06T19:45:37Z
+   URL: https://github.com/appwrite/appwrite/pull/9617
+
+98. Fix: Correct error handling for int values like documentId = 123
+   Author: urooj-vX
+   Created: 2025-04-04T20:56:11Z
+   URL: https://github.com/appwrite/appwrite/pull/9613
+
+99. Fix: vcs tests
+   Author: Meldiron
+   Created: 2025-04-03T07:53:18Z
+   URL: https://github.com/appwrite/appwrite/pull/9609
+
+100. Fix the build status badge in README files
+   Author: PeterDaveHello
+   Created: 2025-03-30T08:41:03Z
+   URL: https://github.com/appwrite/appwrite/pull/9595
+
+CSV file created at: test-results/pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should fetch all pull requests (open and closed)" classname="test-case-4.spec.ts" time="0.079">
+<system-out>
+<![CDATA[Found 100 total pull requests
+Open PRs: 37
+Closed PRs: 63
+
+Sample open PRs:
+1. Fixed #10599 - fixed the X URL  (Lanthoiba2022)
+2. Sanitize 5xx errors on realtime (ItzNotABug)
+3. Update database (abnegate)
+
+Sample closed PRs:
+1. chore: update composer dependencies (ChiragAgg5k)
+2. Move disable (stnguyen90)
+3. chore: revert 1.6.x to 1.6.2 (stnguyen90)
+All PRs CSV file created at: test-results/all-pull-requests.csv
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should validate CSV format and content" classname="test-case-4.spec.ts" time="0.084">
+<system-out>
+<![CDATA[CSV Content:
+PR Name,Created Date,Author,URL
+"Fixed #10599 - fixed the X URL ","2025-10-04T18:27:29Z","Lanthoiba2022","https://github.com/appwrite/appwrite/pull/10600"
+"Sanitize 5xx errors on realtime","2025-10-04T13:09:25Z","ItzNotABug","https://github.com/appwrite/appwrite/pull/10598"
+"Update database","2025-10-03T12:38:31Z","abnegate","https://github.com/appwrite/appwrite/pull/10596"
+"Feat: update facts on GitHub sites and functions","2025-10-02T17:45:23Z","HarshMN2345","https://github.com/appwrite/appwrite/pull/10593"
+"fix(docs): update broken create table links in TablesDB docs","2025-10-02T14:40:44Z","Priyanshuthapliyal2005","https://github.com/appwrite/appwrite/pull/10592"
+CSV format validation passed
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4: GitHub Pull Request Data Extraction › should handle CSV export functionality with mock data" classname="test-case-4.spec.ts" time="0.002">
+<system-out>
+<![CDATA[Mock CSV file created at: ./test-results/mock-pull-requests.csv
+Mock data contains 2 pull requests
+CSV export functionality verified with mock data
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

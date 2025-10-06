@@ -1,7 +1,5 @@
 # FashionHub Test Automation Suite
 
-[![Playwright Tests](https://github.com/nasrwiz/LuxExperienceAssignment/actions/workflows/playwright-tests.yml/badge.svg)](https://github.com/nasrwiz/LuxExperienceAssignment/actions/workflows/playwright-tests.yml)
-
 > **Prepared by Nasr Ullah on October 05, 2025**
 
 A comprehensive test automation suite for the FashionHub website using Playwright, supporting cross-browser testing and multiple environments.
